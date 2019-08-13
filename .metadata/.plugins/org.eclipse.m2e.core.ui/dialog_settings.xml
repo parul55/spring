@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\parul\Spring\SpringHibernate"/>
+			<item value="D:\parul\Spring\SpringJDBC"/>
+			<item value="D:\parul\Spring\SimpleBeanAnno"/>
+			<item value="D:\parul\Spring\SimpleBeanXmlAnno"/>
+			<item value="D:\parul\Spring\SimpleBeanGradle"/>
+			<item value="D:\parul\Spring\BeanLifeCycle"/>
+			<item value="D:\parul\Spring\SetterInjection"/>
+			<item value="D:\parul\Spring\ConstructorInjection"/>
+			<item value="D:\parul\Spring\SimpleBean"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.zensar.web"/>
+			<item value="com.zensar.spring"/>
+			<item value="com.zensar.spring.SpringJDBC"/>
+			<item value="com.zensar.Spring"/>
+		</list>
+		<list key="groupId">
+			<item value="com.zensar.web"/>
+			<item value="com.zensar.spring"/>
+			<item value="com.zensar.Spring"/>
+		</list>
+		<list key="artifactId">
+			<item value="LoginWebApp"/>
+			<item value="SpringHibernate"/>
+			<item value="SpringJDBC"/>
+			<item value="SimpleBeanAnno"/>
+			<item value="SimpleBeanXmlAnno"/>
+			<item value="BeanInheritance"/>
+			<item value="BeanLifeCycle"/>
+			<item value="SetterInjection"/>
+			<item value="ConstructorInjection"/>
+			<item value="SimpleBean"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

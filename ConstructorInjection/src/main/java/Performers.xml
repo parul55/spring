@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans spring-beans.xsd ">
+
+	<bean id="yasha" class="com.zensar.spring.performers.Juggler">
+	
+		<constructor-arg value="3"></constructor-arg>
+		
+	</bean>
+	<bean id="twinkle" class="com.zensar.spring.performers.poems.TwinkleTwinkle"></bean>
+
+	<bean id="Reema Mehra" class="com.zensar.spring.performers.PeoticJuggler">
+		<constructor-arg value="4"></constructor-arg>
+		<constructor-arg ref="twinkle"></constructor-arg>
+	
+	</bean>
+
+
+</beans>

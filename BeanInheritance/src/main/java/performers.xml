@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans spring-beans.xsd ">
+
+	<bean id="guitar" class="com.zensar.spring.instruments.Guitar"></bean>
+
+	<bean id="Tina J" class="com.zensar.spring.performers.Instrumentalist" >
+		<property name="song" value="Nile Nile Ambar Par..."></property>
+		<property name="instrument" ref="guitar"></property>
+	</bean>
+	<!-- <Child bean definition> -->
+	<bean id="Meena" parent="Tina J"></bean>
+	
+	<bean id="Geeta" parent="Meena">
+		<property name="song" value="Chand Jab AAye..."></property>
+	</bean>
+	
+	<bean id="violin" class="com.zensar.spring.instruments.Violin"></bean>
+	
+	<bean id="Anita" parent="Geeta">
+		<property name="instrument" ref="violin"></property>
+	</bean>
+	
+</beans>

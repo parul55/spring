@@ -1,0 +1,20 @@
+package com.zensar.services.web;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.zensar.services.business.ProductService;
+
+@RestController
+@RequestMapping("/products")
+public class ProductResource {
+	@Autowired
+	private ProductService service;
+	
+	public List<Product> getAllProducts() {
+		return service.findAllProducts();
+	}
+}

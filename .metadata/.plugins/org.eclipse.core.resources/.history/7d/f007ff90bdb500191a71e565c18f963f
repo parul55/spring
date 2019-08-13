@@ -1,0 +1,9 @@
+#MySql JDBC Driver
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/parul
+spring.datasource.username=root
+spring.datasource.password=Temp1234
+
+#Hibernate Properties
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL55Dialect
